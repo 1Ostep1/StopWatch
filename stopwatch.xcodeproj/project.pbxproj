@@ -43,6 +43,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F20C24072642A17700F07697 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2B7307026316F9900F480EC /* stopWatch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F20C24082642A17E00F07697 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2B7305C26316DC900F480EC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F20C24092642A18300F07697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2B7305A26316DC900F480EC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F20C240A2642A1B400F07697 /* Supporting stuff */ = {
+			isa = PBXGroup;
+			children = (
+				F2B7305626316DC900F480EC /* AppDelegate.swift */,
+				F2B7305826316DC900F480EC /* SceneDelegate.swift */,
+				F2B7305F26316DCC00F480EC /* Assets.xcassets */,
+				F2B7306126316DCC00F480EC /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting stuff";
+			sourceTree = "<group>";
+		};
+		F20C240B2642A1D400F07697 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F2B7306B26316EC100F480EC /* ResultTableViewCell.swift */,
+				F2B7306C26316EC100F480EC /* ResultTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		F2B7304A26316DC900F480EC = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +106,12 @@
 		F2B7305526316DC900F480EC /* stopwatch */ = {
 			isa = PBXGroup;
 			children = (
-				F2B7305626316DC900F480EC /* AppDelegate.swift */,
-				F2B7305826316DC900F480EC /* SceneDelegate.swift */,
-				F2B7305A26316DC900F480EC /* ViewController.swift */,
-				F2B7305C26316DC900F480EC /* Main.storyboard */,
-				F2B7305F26316DCC00F480EC /* Assets.xcassets */,
-				F2B7306126316DCC00F480EC /* LaunchScreen.storyboard */,
+				F20C240B2642A1D400F07697 /* Cells */,
+				F20C24072642A17700F07697 /* Model */,
+				F20C24082642A17E00F07697 /* View */,
+				F20C24092642A18300F07697 /* Controller */,
+				F20C240A2642A1B400F07697 /* Supporting stuff */,
 				F2B7306426316DCC00F480EC /* Info.plist */,
-				F2B7306B26316EC100F480EC /* ResultTableViewCell.swift */,
-				F2B7306C26316EC100F480EC /* ResultTableViewCell.xib */,
-				F2B7307026316F9900F480EC /* stopWatch.swift */,
 			);
 			path = stopwatch;
 			sourceTree = "<group>";
